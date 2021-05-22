@@ -1,0 +1,16 @@
+###
+GET http://localhost:8080/api/experience07/users
+###
+GET http://localhost:8080/api/experience07/users/1
+###
+GET http://localhost:8080/api/experience07/users/3
+###
+POST http://localhost:8080/api/experience07/users
+Content-Type: application/json
+
+{
+  "id": 3,
+  "name": "XIAOMING",
+  "password": "123456789"
+}
+###

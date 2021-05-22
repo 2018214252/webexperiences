@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: mybatis-example
+  datasource:
+    url: 'jdbc:mysql://114.116.213.241:3306/2018214252?createDatabaseIfNotExist=true&serverTimezone=Asia/Shanghai'
+    username: 2018214252
+    password: 2018214252
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    initialization-mode: always
+
+logging:
+  level:
+    root: warn
+    com:
+      example: debug
+  pattern:
+    console: '%-5level %C.%M[%line] - %msg%n'
