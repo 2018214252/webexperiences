@@ -1,0 +1,20 @@
+###
+POST http://localhost:8080/api/experience08/register
+Content-Type: application/json
+
+{
+  "userName": "2018214252",
+  "password": "123456"
+}
+###
+POST http://localhost:8080/api/experience08/login
+Content-Type: application/json
+
+{
+  "userName": "2018214252",
+  "password": "123456"
+}
+###
+GET http://localhost:8080/api/experience08/index
+token:8277422333f31c1beb56541c46d6af5232c404f65fed78828887531876ddef0f52a6aecab0dd1f46b0acca7da4cd1ae7
+###

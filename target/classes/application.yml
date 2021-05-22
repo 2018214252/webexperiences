@@ -15,3 +15,7 @@ logging:
       example: debug
   pattern:
     console: '%-5level %C.%M[%line] - %msg%n'
+
+my:
+  secretkey: R28K42ZEJ8LWRHU5
+  salt: 636eac2534bcfcb0
